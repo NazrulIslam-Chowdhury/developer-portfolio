@@ -32,7 +32,7 @@ section {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(orange, red);
+    background-image: linear-gradient(rgb(51, 132, 179), yellow);
     color: white;
     border-radius: 5px;
     font-weight: 700;
@@ -66,4 +66,41 @@ section {
     border-radius: 5px;
     font-weight: 700;
     padding: 10px 30px;
+}
+
+.ex-title {
+    margin-left: 135px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.full-developer {
+    width: 50%;
+    padding-left: 4%;
+    margin-left: 50px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+    border-left: 5px solid yellow;
+}
+
+.baby-developer {
+    width: 50%;
+    margin-left: 50px;
+    padding-left: 4%;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+    border-left: 5px solid red;
+}
+
+.full-developer h1 {
+    color: yellow;
+}
+
+.baby-developer h1 {
+    color: red;
+}
+
+footer p {
+    text-align: center;
 }
